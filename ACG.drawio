@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+  <diagram name="Page-1" id="WqW7R9khG8hF56QRZZt0">
+    <mxGraphModel dx="1290" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-10" value="2-tiers Anti-Spam &amp;amp; Anti-Virus" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="40" y="26" width="900" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-11" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Exchange 2016&lt;/span&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.exchange_server;" vertex="1" parent="NJPx6vtatyjdSkyE2h1o-10">
+          <mxGeometry x="463.5" y="70" width="57" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.outlook_user;" vertex="1" parent="NJPx6vtatyjdSkyE2h1o-10">
+          <mxGeometry x="698.5" y="64" width="63" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-13" value="MailCleaner&lt;br&gt;Gateway" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.firewall;fillColor=#DA4026;" vertex="1" parent="NJPx6vtatyjdSkyE2h1o-10">
+          <mxGeometry x="298.5" y="76" width="47" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-14" value="Linux SBL IP&lt;br&gt;Filtering Gateway" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.firewall;fillColor=#7FBA42;" vertex="1" parent="NJPx6vtatyjdSkyE2h1o-10">
+          <mxGeometry x="138.5" y="76" width="47" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-15" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="NJPx6vtatyjdSkyE2h1o-10" source="NJPx6vtatyjdSkyE2h1o-14" target="NJPx6vtatyjdSkyE2h1o-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="278.5" as="sourcePoint" />
+            <mxPoint x="328.5" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-36" value="&amp;nbsp;SMTP&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NJPx6vtatyjdSkyE2h1o-15">
+          <mxGeometry x="-0.1416" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-16" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="NJPx6vtatyjdSkyE2h1o-10" source="NJPx6vtatyjdSkyE2h1o-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="368.5" y="-40" as="sourcePoint" />
+            <mxPoint x="448.5" y="98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-37" value="&amp;nbsp;SMTP&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NJPx6vtatyjdSkyE2h1o-16">
+          <mxGeometry x="-0.0821" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-17" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="NJPx6vtatyjdSkyE2h1o-10" source="NJPx6vtatyjdSkyE2h1o-11" target="NJPx6vtatyjdSkyE2h1o-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="608.5" y="110" as="sourcePoint" />
+            <mxPoint x="658.5" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-18" value="&amp;nbsp;POP / IMAP/ MAPI&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NJPx6vtatyjdSkyE2h1o-17">
+          <mxGeometry x="-0.3721" y="-1" relative="1" as="geometry">
+            <mxPoint x="22" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-19" value="Anti-Spam &amp;amp; Anti-Virus" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="900" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-20" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Exchange 2016&lt;/span&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.exchange_server;" vertex="1" parent="NJPx6vtatyjdSkyE2h1o-19">
+          <mxGeometry x="463.5" y="70" width="57" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-21" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.outlook_user;" vertex="1" parent="NJPx6vtatyjdSkyE2h1o-19">
+          <mxGeometry x="698.5" y="64" width="63" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-22" value="MailCleaner&lt;br&gt;Gateway" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.firewall;fillColor=#DA4026;" vertex="1" parent="NJPx6vtatyjdSkyE2h1o-19">
+          <mxGeometry x="298.5" y="76" width="47" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-25" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="NJPx6vtatyjdSkyE2h1o-19" source="NJPx6vtatyjdSkyE2h1o-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="368.5" y="-40" as="sourcePoint" />
+            <mxPoint x="448.5" y="98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-38" value="&amp;nbsp;SMTP&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NJPx6vtatyjdSkyE2h1o-25">
+          <mxGeometry x="0.0145" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-26" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="NJPx6vtatyjdSkyE2h1o-19" source="NJPx6vtatyjdSkyE2h1o-20" target="NJPx6vtatyjdSkyE2h1o-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="608.5" y="110" as="sourcePoint" />
+            <mxPoint x="658.5" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-27" value="&amp;nbsp;POP / IMAP/ MAPI&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NJPx6vtatyjdSkyE2h1o-26">
+          <mxGeometry x="-0.3721" y="-1" relative="1" as="geometry">
+            <mxPoint x="22" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-28" value="IP Filtering SBL" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="40" y="470" width="900" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-29" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Exchange 2016&lt;/span&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.exchange_server;" vertex="1" parent="NJPx6vtatyjdSkyE2h1o-28">
+          <mxGeometry x="463.5" y="70" width="57" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-30" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.outlook_user;" vertex="1" parent="NJPx6vtatyjdSkyE2h1o-28">
+          <mxGeometry x="698.5" y="64" width="63" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-32" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="NJPx6vtatyjdSkyE2h1o-28" source="NJPx6vtatyjdSkyE2h1o-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="368.5" y="-40" as="sourcePoint" />
+            <mxPoint x="448.5" y="98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-39" value="&amp;nbsp;STMP&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NJPx6vtatyjdSkyE2h1o-32">
+          <mxGeometry x="-0.0196" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-33" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="NJPx6vtatyjdSkyE2h1o-28" source="NJPx6vtatyjdSkyE2h1o-29" target="NJPx6vtatyjdSkyE2h1o-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="608.5" y="110" as="sourcePoint" />
+            <mxPoint x="658.5" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-34" value="&amp;nbsp;POP / IMAP/ MAPI&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NJPx6vtatyjdSkyE2h1o-33">
+          <mxGeometry x="-0.3721" y="-1" relative="1" as="geometry">
+            <mxPoint x="22" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJPx6vtatyjdSkyE2h1o-35" value="Linux SBL IP&lt;br&gt;Filtering Gateway" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.firewall;fillColor=#7FBA42;" vertex="1" parent="NJPx6vtatyjdSkyE2h1o-28">
+          <mxGeometry x="300" y="76" width="47" height="43" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
