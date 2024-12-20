@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="7eawvD5C5DQB8_Gma-Ed">
-    <mxGraphModel>
+    <mxGraphModel dx="662" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Sz7nDaAQ8_9Q84f_Cyrm-1" value="QC Application Server System ST0004" style="swimlane;whiteSpace=wrap;html=1;startSize=20;strokeColor=#000000;strokeWidth=2;fillColor=#7EA6E0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="330" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Sz7nDaAQ8_9Q84f_Cyrm-2" value="" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#D9D9D9;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=oval;endFill=1;startArrow=oval;startFill=1;fontSize=8;" edge="1" parent="Sz7nDaAQ8_9Q84f_Cyrm-1" source="Sz7nDaAQ8_9Q84f_Cyrm-10" target="Sz7nDaAQ8_9Q84f_Cyrm-7">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="160" y="490" as="sourcePoint" />
+            <mxPoint x="260" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sz7nDaAQ8_9Q84f_Cyrm-3" value="" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#D9D9D9;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=oval;endFill=1;startArrow=oval;startFill=1;fontSize=8;" edge="1" parent="Sz7nDaAQ8_9Q84f_Cyrm-1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="130" y="210" as="sourcePoint" />
+            <mxPoint x="90" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="210" />
+              <mxPoint x="170" y="250" />
+              <mxPoint x="130" y="250" />
+              <mxPoint x="90" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sz7nDaAQ8_9Q84f_Cyrm-4" value="Agilent Networked Chromatographic instrument System&lt;br style=&quot;font-size: 8px;&quot;&gt;SQ001" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=8;" vertex="1" parent="Sz7nDaAQ8_9Q84f_Cyrm-1">
+          <mxGeometry x="10" y="30" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Sz7nDaAQ8_9Q84f_Cyrm-5" value="Agilent ECM Server&lt;br style=&quot;font-size: 8px;&quot;&gt;10.0.17.10" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;fontSize=8;" vertex="1" parent="Sz7nDaAQ8_9Q84f_Cyrm-4">
+          <mxGeometry x="23.5" y="60" width="28.000000000000004" height="28.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="Sz7nDaAQ8_9Q84f_Cyrm-6" value="Agilent SQL Server&lt;br style=&quot;font-size: 8px;&quot;&gt;10.0.17.11" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;fontSize=8;" vertex="1" parent="Sz7nDaAQ8_9Q84f_Cyrm-4">
+          <mxGeometry x="102" y="60" width="28.000000000000004" height="28.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="Sz7nDaAQ8_9Q84f_Cyrm-7" value="Storage Base&lt;br style=&quot;font-size: 8px;&quot;&gt;ETE0018" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.storage;fontSize=8;" vertex="1" parent="Sz7nDaAQ8_9Q84f_Cyrm-1">
+          <mxGeometry x="205" y="270" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sz7nDaAQ8_9Q84f_Cyrm-8" value="Waters Networked Chromatographic Instrument System SQ002" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;startSize=50;fontSize=8;" vertex="1" parent="Sz7nDaAQ8_9Q84f_Cyrm-1">
+          <mxGeometry x="190" y="30" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Sz7nDaAQ8_9Q84f_Cyrm-9" value="Empower Water&lt;br style=&quot;font-size: 8px;&quot;&gt;10.0.17.21" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;fontSize=8;" vertex="1" parent="Sz7nDaAQ8_9Q84f_Cyrm-8">
+          <mxGeometry x="46" y="60" width="28.000000000000004" height="28.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="Sz7nDaAQ8_9Q84f_Cyrm-10" value="SAN Switch&lt;br style=&quot;font-size: 8px;&quot;&gt;ETC0017" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.physical_switch;fontSize=8;" vertex="1" parent="Sz7nDaAQ8_9Q84f_Cyrm-1">
+          <mxGeometry x="35" y="270" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sz7nDaAQ8_9Q84f_Cyrm-11" value="QC Application Server&lt;br&gt;(Standby)&lt;br style=&quot;font-size: 8px;&quot;&gt;ETE0016&lt;br&gt;10.0.29.15" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.1u_server;fontSize=8;" vertex="1" parent="Sz7nDaAQ8_9Q84f_Cyrm-1">
+          <mxGeometry x="220" y="200" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sz7nDaAQ8_9Q84f_Cyrm-13" value="" style="triangle;whiteSpace=wrap;html=1;gradientColor=none;strokeColor=none;gradientDirection=east;direction=south;fillColor=#B3B3B3;shadow=0;fontSize=8;" vertex="1" parent="Sz7nDaAQ8_9Q84f_Cyrm-1">
+          <mxGeometry x="10" y="180" width="310" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Sz7nDaAQ8_9Q84f_Cyrm-14" value="Virtual Machine Enironment" style="align=center;verticalAlign=middle;fontFamily=Tahoma;fillColor=#df8c42;strokeColor=none;fontColor=#ffffff;strokeWidth=2;html=1;whiteSpace=wrap;spacing=6;fontStyle=0;fontSize=8;" vertex="1" parent="Sz7nDaAQ8_9Q84f_Cyrm-1">
+          <mxGeometry x="10" y="160" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sz7nDaAQ8_9Q84f_Cyrm-12" value="QC Application Server&lt;br&gt;(Production)&lt;br style=&quot;font-size: 8px;&quot;&gt;ETE0015&lt;br&gt;10.0.29.14&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.1u_server;fontSize=8;" vertex="1" parent="Sz7nDaAQ8_9Q84f_Cyrm-1">
+          <mxGeometry x="50" y="200" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sz7nDaAQ8_9Q84f_Cyrm-15" value="" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#D9D9D9;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=oval;endFill=1;startArrow=oval;startFill=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="250" y="250" as="sourcePoint" />
+            <mxPoint x="170" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
