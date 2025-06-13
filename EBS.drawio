@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="eBox8F9J_3k4DlokBTBl-56" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#FFE599;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="780" y="640" width="300" height="160" as="geometry" />
+          <mxGeometry x="780" y="652.5" width="300" height="135" as="geometry" />
         </mxCell>
         <mxCell id="eBox8F9J_3k4DlokBTBl-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d3d3d3;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="780" y="370" width="300" height="220" as="geometry" />
@@ -198,7 +198,7 @@
           <mxGeometry x="710" y="250" width="25" height="22" as="geometry" />
         </mxCell>
         <mxCell id="eBox8F9J_3k4DlokBTBl-57" value="DEV Environment" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="788" y="610" width="150" height="30" as="geometry" />
+          <mxGeometry x="788" y="625" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eBox8F9J_3k4DlokBTBl-58" value="&lt;div&gt;HKVEBSAPP001D&lt;/div&gt;&lt;div&gt;10.3.131.42&lt;/div&gt;" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.virtual_machine;" vertex="1" parent="1">
           <mxGeometry x="840" y="693" width="46" height="46" as="geometry" />
