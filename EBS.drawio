@@ -200,7 +200,7 @@
         <mxCell id="eBox8F9J_3k4DlokBTBl-57" value="DEV Environment" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="788" y="625" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eBox8F9J_3k4DlokBTBl-58" value="&lt;div&gt;HKVEBSAPP001D&lt;/div&gt;&lt;div&gt;10.3.131.42&lt;/div&gt;" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.virtual_machine;" vertex="1" parent="1">
+        <mxCell id="eBox8F9J_3k4DlokBTBl-58" value="&lt;div&gt;HKVEBSAPP001D&lt;/div&gt;&lt;div&gt;10.3.131.41&lt;/div&gt;" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.virtual_machine;" vertex="1" parent="1">
           <mxGeometry x="840" y="693" width="46" height="46" as="geometry" />
         </mxCell>
         <mxCell id="eBox8F9J_3k4DlokBTBl-59" value="&lt;div&gt;HKVEBSDBS001D&lt;/div&gt;&lt;div&gt;10.3.131.4&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3&lt;/span&gt;&lt;/div&gt;" style="sketch=0;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.virtual_machine;" vertex="1" parent="1">
@@ -216,8 +216,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eBox8F9J_3k4DlokBTBl-61" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;b&gt;DNS&lt;br&gt;&lt;br&gt;DEV Environment&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;10.3.131.42&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;erpdev.fortunepharm.com&lt;/div&gt;" style="align=left;verticalAlign=middle;fontFamily=Tahoma;fillColor=#005f4b;strokeColor=none;fontColor=#ffffff;strokeWidth=2;html=1;whiteSpace=wrap;spacing=6;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="285" y="665" width="150" height="110.00000000000001" as="geometry" />
+        <mxCell id="eBox8F9J_3k4DlokBTBl-61" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;b&gt;DNS&lt;br&gt;&lt;br&gt;DEV Environment&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;10.3.131.41&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;dev.fortunepharm.com&lt;/span&gt;&lt;/div&gt;" style="align=center;verticalAlign=middle;fontFamily=Tahoma;fillColor=#005f4b;strokeColor=none;fontColor=#ffffff;strokeWidth=2;html=1;whiteSpace=wrap;spacing=6;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="280" y="680" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eBox8F9J_3k4DlokBTBl-62" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eBox8F9J_3k4DlokBTBl-61" target="eBox8F9J_3k4DlokBTBl-56">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
