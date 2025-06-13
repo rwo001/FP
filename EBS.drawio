@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="Page-1" id="8VxB4BbqgODA6P-S_9Hg">
-    <mxGraphModel dx="1043" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1472" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="eBox8F9J_3k4DlokBTBl-44" value="``" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d3d3d3;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="780" y="430" width="300" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="eBox8F9J_3k4DlokBTBl-2" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;b&gt;VIP / DNS&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;10.3.131.20&lt;br&gt;erp2.fortunepharm.com&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;10.3.131.30&lt;br&gt;erpuat2.fortunephar.com&lt;/div&gt;" style="align=center;verticalAlign=middle;fontFamily=Tahoma;fillColor=#005f4b;strokeColor=none;fontColor=#ffffff;strokeWidth=2;html=1;whiteSpace=wrap;spacing=6;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="280" y="320" width="160" height="160" as="geometry" />
+        <mxCell id="eBox8F9J_3k4DlokBTBl-2" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;b&gt;VIP &amp;amp; DNS&lt;br&gt;&lt;br&gt;Production Environment&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;10.3.131.20&lt;/span&gt;&lt;/div&gt;&lt;div&gt;erp2.fortunepharm.com&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;b&gt;UAT Environment&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;10.3.131.30&lt;br&gt;erp2.fortunepharm.com&lt;/div&gt;&lt;/div&gt;" style="align=center;verticalAlign=middle;fontFamily=Tahoma;fillColor=#005f4b;strokeColor=none;fontColor=#ffffff;strokeWidth=2;html=1;whiteSpace=wrap;spacing=6;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="280" y="330" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="eBox8F9J_3k4DlokBTBl-4" value="Keepalived" style="align=left;verticalAlign=middle;fontFamily=Tahoma;fillColor=#df8c42;strokeColor=none;fontColor=#ffffff;strokeWidth=2;html=1;whiteSpace=wrap;spacing=6;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="520" y="320" width="70" height="30" as="geometry" />
