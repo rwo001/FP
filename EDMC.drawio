@@ -85,10 +85,10 @@
             <mxPoint x="52" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1lgSarpmrvdroJrzYnV4-20" value="1st Tier Firewall" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="1lgSarpmrvdroJrzYnV4-20" value="Pola" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="310" y="10" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1lgSarpmrvdroJrzYnV4-22" value="2nd Tier Firewall" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="1lgSarpmrvdroJrzYnV4-22" value="Fortigate" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="670" y="10" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1lgSarpmrvdroJrzYnV4-23" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
