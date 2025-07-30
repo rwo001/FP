@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="Page-1" id="hHWHnsxokW3kDAro0Tdl">
-    <mxGraphModel dx="1088" dy="1401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1925" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,10 +45,13 @@
           <mxGeometry x="300" y="39" width="42" height="42" as="geometry" />
         </mxCell>
         <mxCell id="5zW4jAHzgYJ2B7a12A-Z-15" value="PDA&lt;br&gt;10.0.75.61" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" vertex="1" parent="1lgSarpmrvdroJrzYnV4-1">
-          <mxGeometry x="191" y="45" width="18" height="30" as="geometry" />
+          <mxGeometry x="230" y="45" width="20" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="5zW4jAHzgYJ2B7a12A-Z-16" value="Terminal&lt;br&gt;10.0.75.51" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.tablet;pointerEvents=1;" vertex="1" parent="1lgSarpmrvdroJrzYnV4-1">
-          <mxGeometry x="50" y="41.25" width="50" height="37.5" as="geometry" />
+        <mxCell id="5zW4jAHzgYJ2B7a12A-Z-16" value="Terminal&lt;br&gt;10.0.75.52" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.tablet;pointerEvents=1;" vertex="1" parent="1lgSarpmrvdroJrzYnV4-1">
+          <mxGeometry x="130" y="41.25" width="50" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5zW4jAHzgYJ2B7a12A-Z-26" value="Terminal&lt;br&gt;10.0.75.51" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.tablet;pointerEvents=1;" vertex="1" parent="1lgSarpmrvdroJrzYnV4-1">
+          <mxGeometry x="30" y="41.25" width="50" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="1lgSarpmrvdroJrzYnV4-2" value="VLAN341" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="-560" width="400" height="200" as="geometry" />
@@ -168,10 +171,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oMJwZCUIaVvIRo2sdAal-2" value="VLAN800" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="-160" width="280" height="120" as="geometry" />
+          <mxGeometry x="40" y="-160" width="400" height="120" as="geometry" />
         </mxCell>
         <mxCell id="oMJwZCUIaVvIRo2sdAal-3" value="10.0.0.5" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.vm_with_a_snapshot;" parent="oMJwZCUIaVvIRo2sdAal-2" vertex="1">
-          <mxGeometry x="122" y="39" width="42" height="42" as="geometry" />
+          <mxGeometry x="179" y="39" width="42" height="42" as="geometry" />
         </mxCell>
         <mxCell id="1lgSarpmrvdroJrzYnV4-17" value="" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#7EA6E0;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=block;endFill=1;startArrow=none;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fillColor=#76608a;" parent="1" target="1lgSarpmrvdroJrzYnV4-2" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -209,7 +212,7 @@
         <mxCell id="5zW4jAHzgYJ2B7a12A-Z-20" value="Fortigate" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Azure_Firewall_Policy.svg;" vertex="1" parent="1">
           <mxGeometry x="840" y="-810" width="41.36" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5zW4jAHzgYJ2B7a12A-Z-23" value="" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#7EA6E0;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=block;endFill=1;startArrow=none;fillColor=#76608a;" edge="1" parent="1" target="1lgSarpmrvdroJrzYnV4-5">
+        <mxCell id="5zW4jAHzgYJ2B7a12A-Z-23" value="" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#7EA6E0;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=block;endFill=1;startArrow=none;fillColor=#76608a;dashed=1;" edge="1" parent="1" target="1lgSarpmrvdroJrzYnV4-5">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="400" y="-490" as="sourcePoint" />
             <mxPoint x="600" y="-700" as="targetPoint" />
@@ -223,7 +226,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5zW4jAHzgYJ2B7a12A-Z-24" value="" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#7EA6E0;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=block;endFill=1;startArrow=none;fillColor=#76608a;" edge="1" parent="1">
+        <mxCell id="5zW4jAHzgYJ2B7a12A-Z-24" value="" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#7EA6E0;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=block;endFill=1;startArrow=none;fillColor=#76608a;dashed=1;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="400" y="-490" as="sourcePoint" />
             <mxPoint x="390" y="-280" as="targetPoint" />
