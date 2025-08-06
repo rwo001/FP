@@ -259,7 +259,7 @@
         <mxCell id="Y5eWOXrqHEHF0P4GI-ZK-4" value="VLAN837" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="400" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="Y5eWOXrqHEHF0P4GI-ZK-6" value="&lt;div&gt;OCS Firewall (A29)&lt;/div&gt;LAN4 : 172.16.200.21/30&lt;br&gt;WAN2 : 10.0.37.137/24" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Azure_Firewall_Manager.svg;" vertex="1" parent="Y5eWOXrqHEHF0P4GI-ZK-4">
+        <mxCell id="Y5eWOXrqHEHF0P4GI-ZK-6" value="&lt;div&gt;OCS Firewall (A29)&lt;/div&gt;WAN2 : 10.0.37.137/24&lt;br&gt;LAN4 : 172.16.200.21/30" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Azure_Firewall_Manager.svg;" vertex="1" parent="Y5eWOXrqHEHF0P4GI-ZK-4">
           <mxGeometry x="177.5" y="40.71000000000001" width="45" height="38.57" as="geometry" />
         </mxCell>
         <mxCell id="Y5eWOXrqHEHF0P4GI-ZK-8" value="Direct Connect&lt;br&gt;172.16.200.20/30" style="endArrow=classic;startArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.013;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;textDirection=ltr;startFill=0;" edge="1" parent="1" source="5zW4jAHzgYJ2B7a12A-Z-26" target="Y5eWOXrqHEHF0P4GI-ZK-6">
