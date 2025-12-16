@@ -179,7 +179,7 @@
             <mxPoint x="113" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IQ9uzHhmVZsDxGKS1QHb-10" parent="kH8nibP3c16tMcYwQBfc-19" style="swimlane;whiteSpace=wrap;html=1;startSize=26;strokeColor=#b85450;strokeWidth=2;fillColor=#f8cecc;fontSize=8;" value="GMP Domain" vertex="1">
+        <mxCell id="IQ9uzHhmVZsDxGKS1QHb-10" parent="kH8nibP3c16tMcYwQBfc-19" style="swimlane;whiteSpace=wrap;html=1;startSize=26;strokeColor=#b85450;strokeWidth=2;fillColor=#FF99FF;fontSize=8;" value="GMP Domain" vertex="1">
           <mxGeometry height="120" width="165" x="405" y="340" as="geometry" />
         </mxCell>
         <mxCell id="IQ9uzHhmVZsDxGKS1QHb-13" parent="IQ9uzHhmVZsDxGKS1QHb-10" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Domain Controller / Time Server&lt;br&gt;HKVWDSRV001&lt;br&gt;10.0.0.5&lt;/font&gt;" vertex="1">
@@ -558,7 +558,7 @@
             <mxRectangle height="150" width="30" x="1040" y="520" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IQ9uzHhmVZsDxGKS1QHb-2" parent="IQ9uzHhmVZsDxGKS1QHb-1" style="swimlane;whiteSpace=wrap;html=1;startSize=33;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;gradientColor=#7ea6e0;fontSize=8;" value="Malvern Particle Size Analyzer System&lt;br style=&quot;font-size: 8px;&quot;&gt;SQ010" vertex="1">
+        <mxCell id="IQ9uzHhmVZsDxGKS1QHb-2" parent="IQ9uzHhmVZsDxGKS1QHb-1" style="swimlane;whiteSpace=wrap;html=1;startSize=33;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#33FF99;gradientColor=#00CC00;fontSize=8;" value="Malvern Particle Size Analyzer System&lt;br style=&quot;font-size: 8px;&quot;&gt;SQ010" vertex="1">
           <mxGeometry height="135" width="180" x="40" y="22.5" as="geometry" />
         </mxCell>
         <mxCell id="IQ9uzHhmVZsDxGKS1QHb-3" parent="IQ9uzHhmVZsDxGKS1QHb-2" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.server;fontSize=8;" value="EQC0144&lt;br&gt;Malvern Particle &lt;br&gt;Size Analyzer" vertex="1">
