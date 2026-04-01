@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5IxfTwBA530z0tEjAddB-4" parent="1" style="swimlane;" value="R&amp;D Agilent" vertex="1">
+        <mxCell id="5IxfTwBA530z0tEjAddB-4" parent="1" style="swimlane;" value="R&amp;D" vertex="1">
           <mxGeometry height="280" width="760" x="360" y="40" as="geometry" />
         </mxCell>
         <mxCell id="5IxfTwBA530z0tEjAddB-5" parent="5IxfTwBA530z0tEjAddB-4" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.workstation;" value="Workstation (New)" vertex="1">
@@ -73,7 +73,10 @@
         <mxCell id="5IxfTwBA530z0tEjAddB-99" parent="5IxfTwBA530z0tEjAddB-4" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=light-dark(#2a5f0c, #446e2c);shadow=0;dashed=0;shape=mxgraph.ios7.icons.printer;fillColor=#d5e8d4;" value="" vertex="1">
           <mxGeometry height="40" width="40" x="80" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="5IxfTwBA530z0tEjAddB-25" parent="1" style="swimlane;startSize=23;" value="QC New Agilent" vertex="1">
+        <mxCell id="5IxfTwBA530z0tEjAddB-101" parent="5IxfTwBA530z0tEjAddB-4" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=light-dark(#2a5f0c, #446e2c);shadow=0;dashed=0;shape=mxgraph.ios7.icons.printer;fillColor=#d5e8d4;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="140" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="5IxfTwBA530z0tEjAddB-25" parent="1" style="swimlane;startSize=23;" value="QC" vertex="1">
           <mxGeometry height="200" width="760" x="360" y="361" as="geometry" />
         </mxCell>
         <mxCell id="5IxfTwBA530z0tEjAddB-94" parent="5IxfTwBA530z0tEjAddB-25" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.server;" value="LC" vertex="1">
