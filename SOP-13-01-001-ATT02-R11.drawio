@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36">
   <diagram name="Page-1" id="Ysq3l-suNHoij0CNaiEJ">
-    <mxGraphModel dx="1479" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1479" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,25 +111,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8-r9115j6AwYUG10H6lJ-7" parent="8-r9115j6AwYUG10H6lJ-6" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=8;" value="Agilent Networked Chromatographic instrument System&lt;br style=&quot;font-size: 8px;&quot;&gt;SQ001" vertex="1">
-          <mxGeometry height="120" width="170" x="10" y="30" as="geometry" />
+          <mxGeometry height="130" width="170" x="10" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="8-r9115j6AwYUG10H6lJ-8" parent="8-r9115j6AwYUG10H6lJ-7" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;fontSize=8;" value="Agilent ECM Server&lt;br style=&quot;font-size: 8px;&quot;&gt;10.0.17.10" vertex="1">
+        <mxCell id="8-r9115j6AwYUG10H6lJ-8" parent="8-r9115j6AwYUG10H6lJ-7" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;fontSize=8;" value="Agilent ECM Server&lt;br&gt;ETF0002&lt;br style=&quot;font-size: 8px;&quot;&gt;10.0.17.10" vertex="1">
           <mxGeometry height="28.000000000000004" width="28.000000000000004" x="23.5" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="8-r9115j6AwYUG10H6lJ-9" parent="8-r9115j6AwYUG10H6lJ-7" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;fontSize=8;" value="Agilent SQL Server&lt;br style=&quot;font-size: 8px;&quot;&gt;10.0.17.11" vertex="1">
+        <mxCell id="8-r9115j6AwYUG10H6lJ-9" parent="8-r9115j6AwYUG10H6lJ-7" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;fontSize=8;" value="Agilent SQL Server&lt;br&gt;ETF0003&lt;br style=&quot;font-size: 8px;&quot;&gt;10.0.17.11" vertex="1">
           <mxGeometry height="28.000000000000004" width="28.000000000000004" x="102" y="60" as="geometry" />
         </mxCell>
         <mxCell id="kH8nibP3c16tMcYwQBfc-32" parent="8-r9115j6AwYUG10H6lJ-6" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;startSize=50;fontSize=8;" value="Waters Networked Chromatographic Instrument System SQ002" vertex="1">
-          <mxGeometry height="120" width="130" x="190" y="30" as="geometry" />
+          <mxGeometry height="130" width="130" x="190" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="kH8nibP3c16tMcYwQBfc-33" parent="kH8nibP3c16tMcYwQBfc-32" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;fontSize=8;" value="Empower Water&lt;br style=&quot;font-size: 8px;&quot;&gt;10.0.17.21" vertex="1">
+        <mxCell id="kH8nibP3c16tMcYwQBfc-33" parent="kH8nibP3c16tMcYwQBfc-32" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;fontSize=8;" value="Empower Water&lt;div&gt;ETF0004&lt;br style=&quot;font-size: 8px;&quot;&gt;10.0.17.21&lt;/div&gt;" vertex="1">
           <mxGeometry height="28.000000000000004" width="28.000000000000004" x="46" y="60" as="geometry" />
         </mxCell>
         <mxCell id="8-r9115j6AwYUG10H6lJ-11" parent="8-r9115j6AwYUG10H6lJ-6" style="triangle;whiteSpace=wrap;html=1;gradientColor=none;strokeColor=none;gradientDirection=east;direction=south;fillColor=#B3B3B3;shadow=0;fontSize=8;" value="" vertex="1">
-          <mxGeometry height="10" width="310" x="10" y="180" as="geometry" />
+          <mxGeometry height="10" width="310" x="10" y="190" as="geometry" />
         </mxCell>
         <mxCell id="8-r9115j6AwYUG10H6lJ-12" parent="8-r9115j6AwYUG10H6lJ-6" style="align=center;verticalAlign=middle;fontFamily=Tahoma;fillColor=#df8c42;strokeColor=none;fontColor=#ffffff;strokeWidth=2;html=1;whiteSpace=wrap;spacing=6;fontStyle=0;fontSize=8;" value="Virtual Machine Enironment" vertex="1">
-          <mxGeometry height="20" width="310" x="10" y="160" as="geometry" />
+          <mxGeometry height="20" width="310" x="10" y="170" as="geometry" />
         </mxCell>
         <mxCell id="8-r9115j6AwYUG10H6lJ-15" parent="8-r9115j6AwYUG10H6lJ-6" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.1u_server;fontSize=8;" value="QC Application Server&lt;br&gt;(Production)&lt;br style=&quot;font-size: 8px;&quot;&gt;ETE0015&lt;br&gt;10.0.29.14&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="20" width="70" x="45" y="270" as="geometry" />
@@ -182,7 +182,7 @@
         <mxCell id="IQ9uzHhmVZsDxGKS1QHb-10" parent="kH8nibP3c16tMcYwQBfc-19" style="swimlane;whiteSpace=wrap;html=1;startSize=26;strokeColor=#b85450;strokeWidth=2;fillColor=#FF99FF;fontSize=8;" value="GMP Domain" vertex="1">
           <mxGeometry height="120" width="165" x="405" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="IQ9uzHhmVZsDxGKS1QHb-13" parent="IQ9uzHhmVZsDxGKS1QHb-10" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Domain Controller / Time Server&lt;br&gt;HKVWDSRV001&lt;br&gt;10.0.0.5&lt;/font&gt;" vertex="1">
+        <mxCell id="IQ9uzHhmVZsDxGKS1QHb-13" parent="IQ9uzHhmVZsDxGKS1QHb-10" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;" value="&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;Domain Controller / Time Server&lt;br&gt;ETF0001&lt;br&gt;10.0.0.5&lt;/font&gt;" vertex="1">
           <mxGeometry height="28.000000000000004" width="28.000000000000004" x="69.5" y="40" as="geometry" />
         </mxCell>
         <mxCell id="8-r9115j6AwYUG10H6lJ-54" edge="1" parent="1" source="kH8nibP3c16tMcYwQBfc-3" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#000000;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=none;endFill=0;startArrow=none;dashed=1;entryX=-0.024;entryY=0.709;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=8;" target="kH8nibP3c16tMcYwQBfc-2" value="">
