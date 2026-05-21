@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36">
   <diagram name="Page-1" id="Ysq3l-suNHoij0CNaiEJ">
-    <mxGraphModel dx="1880" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="922" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -687,7 +687,7 @@
         <mxCell id="M2-sLn-kK6se609QPlrD-4" edge="1" parent="M2-sLn-kK6se609QPlrD-2" source="M2-sLn-kK6se609QPlrD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M2-sLn-kK6se609QPlrD-3" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M2-sLn-kK6se609QPlrD-5" parent="M2-sLn-kK6se609QPlrD-2" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.workstation;fontSize=8;" value="ETB0084&lt;br style=&quot;font-size: 8px;&quot;&gt;10.0.17.122" vertex="1">
+        <mxCell id="M2-sLn-kK6se609QPlrD-5" parent="M2-sLn-kK6se609QPlrD-2" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.workstation;fontSize=8;" value="ETB0084&lt;br style=&quot;font-size: 8px;&quot;&gt;10.0.17.138" vertex="1">
           <mxGeometry height="30" width="44" x="33" y="55" as="geometry" />
         </mxCell>
         <mxCell id="M2-sLn-kK6se609QPlrD-6" edge="1" parent="1" source="M2-sLn-kK6se609QPlrD-2" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#3333FF;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=none;endFill=0;startArrow=none;dashed=1;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
