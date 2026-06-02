@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="P-wA1qIOeOjJk6016KdA">
+    <mxGraphModel dx="1239" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EvbyE5ojvhl_ggC_nbNF-1" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="A219 - Rack 10" vertex="1">
+          <mxGeometry height="400" width="440" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EvbyE5ojvhl_ggC_nbNF-3" parent="EvbyE5ojvhl_ggC_nbNF-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EvbyE5ojvhl_ggC_nbNF-4" parent="EvbyE5ojvhl_ggC_nbNF-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EvbyE5ojvhl_ggC_nbNF-5" parent="EvbyE5ojvhl_ggC_nbNF-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EvbyE5ojvhl_ggC_nbNF-6" parent="EvbyE5ojvhl_ggC_nbNF-1" style="align=center;verticalAlign=middle;fontFamily=Tahoma;fillColor=#df8c42;strokeColor=none;fontColor=#ffffff;strokeWidth=2;html=1;whiteSpace=wrap;spacing=6;fontStyle=0" value="Proxmox" vertex="1">
+          <mxGeometry height="20" width="280" x="80" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EvbyE5ojvhl_ggC_nbNF-8" parent="EvbyE5ojvhl_ggC_nbNF-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.1u_server;" value="GMP Hypervisor Server 1&lt;br&gt;ETE0029&lt;br&gt;10.0.29.35" vertex="1">
+          <mxGeometry height="30" width="120" x="80" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EvbyE5ojvhl_ggC_nbNF-9" parent="EvbyE5ojvhl_ggC_nbNF-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.1u_server;" value="GMP Hypervisor Server 2&lt;div&gt;ETE0030&lt;br&gt;10.0.29.36&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="240" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EvbyE5ojvhl_ggC_nbNF-7" parent="EvbyE5ojvhl_ggC_nbNF-1" style="triangle;whiteSpace=wrap;html=1;gradientColor=#D3D3D3;strokeColor=none;gradientDirection=east;rotation=90;" value="" vertex="1">
+          <mxGeometry height="293.55" width="20" x="210" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="EvbyE5ojvhl_ggC_nbNF-10" parent="EvbyE5ojvhl_ggC_nbNF-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EvbyE5ojvhl_ggC_nbNF-11" parent="EvbyE5ojvhl_ggC_nbNF-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.storage;" value="Storage Base 1&lt;br&gt;ETE0031&lt;br&gt;10.0.28.31/10.0.28.32" vertex="1">
+          <mxGeometry height="40" width="280" x="80" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="EvbyE5ojvhl_ggC_nbNF-12" edge="1" parent="EvbyE5ojvhl_ggC_nbNF-1" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#00B336;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=block;endFill=1;startArrow=block;startFill=1;edgeStyle=orthogonalEdgeStyle;" target="EvbyE5ojvhl_ggC_nbNF-11" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="180" />
+              <mxPoint x="60" y="300" />
+            </Array>
+            <mxPoint x="80" y="180" as="sourcePoint" />
+            <mxPoint x="80" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvbyE5ojvhl_ggC_nbNF-15" connectable="0" parent="EvbyE5ojvhl_ggC_nbNF-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=270;" value="Fibre Connection" vertex="1">
+          <mxGeometry relative="1" x="-0.2908" y="-3" as="geometry">
+            <mxPoint x="3" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvbyE5ojvhl_ggC_nbNF-13" edge="1" parent="EvbyE5ojvhl_ggC_nbNF-1" source="EvbyE5ojvhl_ggC_nbNF-9" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#00B336;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=block;endFill=1;startArrow=block;startFill=1;edgeStyle=orthogonalEdgeStyle;" target="EvbyE5ojvhl_ggC_nbNF-11" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="180" />
+              <mxPoint x="380" y="300" />
+            </Array>
+            <mxPoint x="400" y="180" as="sourcePoint" />
+            <mxPoint x="400" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvbyE5ojvhl_ggC_nbNF-14" connectable="0" parent="EvbyE5ojvhl_ggC_nbNF-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" value="Fibre Connection" vertex="1">
+          <mxGeometry relative="1" x="0.0092" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
