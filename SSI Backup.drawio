@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Q1qEN9NQcn7KQOZhU-w0">
-    <mxGraphModel dx="1458" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1377" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,7 +61,7 @@
         <mxCell id="reILo-NBEeHTBV6-JZvS-1" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#000000;fontSize=8;fontFamily=Helvetica;fontStyle=1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;A219 - IT Server Room (Primary)&lt;/font&gt;" vertex="1">
           <mxGeometry height="280" width="240" x="280" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="reILo-NBEeHTBV6-JZvS-4" parent="reILo-NBEeHTBV6-JZvS-1" style="swimlane;whiteSpace=wrap;html=1;startSize=26;strokeColor=#b85450;strokeWidth=2;fillColor=#f8cecc;fontSize=8;" value="GMP Backup System" vertex="1">
+        <mxCell id="reILo-NBEeHTBV6-JZvS-4" parent="reILo-NBEeHTBV6-JZvS-1" style="swimlane;whiteSpace=wrap;html=1;startSize=26;strokeColor=#b85450;strokeWidth=2;fillColor=#f8cecc;fontSize=8;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;GMP Backup System&lt;/font&gt;" vertex="1">
           <mxGeometry height="240" width="180" x="40" y="20" as="geometry" />
         </mxCell>
         <mxCell id="reILo-NBEeHTBV6-JZvS-5" parent="reILo-NBEeHTBV6-JZvS-4" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.vbr_server;fontSize=8;" value="GMP Data Backup Server&lt;br style=&quot;font-size: 8px;&quot;&gt;ETE0024&lt;br style=&quot;font-size: 8px;&quot;&gt;10.0.6.40&lt;br&gt;10.0.19.40" vertex="1">
@@ -109,10 +109,10 @@
             <mxPoint x="230" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="reILo-NBEeHTBV6-JZvS-52" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#000000;fontSize=8;fontFamily=Helvetica;fontStyle=1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;A219 - IT Server Room (Primary)&lt;/font&gt;" vertex="1">
+        <mxCell id="reILo-NBEeHTBV6-JZvS-52" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#000000;fontSize=8;fontFamily=Helvetica;fontStyle=1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;B227&lt;/font&gt;" vertex="1">
           <mxGeometry height="320" width="240" x="280" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="reILo-NBEeHTBV6-JZvS-53" parent="reILo-NBEeHTBV6-JZvS-52" style="swimlane;whiteSpace=wrap;html=1;startSize=26;strokeColor=#b85450;strokeWidth=2;fillColor=#f8cecc;fontSize=8;" value="Secure Box" vertex="1">
+        <mxCell id="reILo-NBEeHTBV6-JZvS-53" parent="reILo-NBEeHTBV6-JZvS-52" style="swimlane;whiteSpace=wrap;html=1;startSize=26;strokeColor=#b85450;strokeWidth=2;fillColor=#f8cecc;fontSize=8;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Secure Box&lt;/font&gt;" vertex="1">
           <mxGeometry height="110" width="180" x="40" y="20" as="geometry" />
         </mxCell>
         <mxCell id="reILo-NBEeHTBV6-JZvS-55" parent="reILo-NBEeHTBV6-JZvS-53" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.tape_media_pool;fontSize=8;" value="" vertex="1">
