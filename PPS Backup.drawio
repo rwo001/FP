@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Q1qEN9NQcn7KQOZhU-w0">
+    <mxGraphModel dx="1033" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="reILo-NBEeHTBV6-JZvS-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="640" width="680" x="240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="reILo-NBEeHTBV6-JZvS-1" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#000000;fontSize=8;fontFamily=Helvetica;fontStyle=1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;A219 - IT Server Room (Primary)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="320" width="600" x="280" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="reILo-NBEeHTBV6-JZvS-4" parent="reILo-NBEeHTBV6-JZvS-1" style="swimlane;whiteSpace=wrap;html=1;startSize=26;strokeColor=#b85450;strokeWidth=2;fillColor=#f8cecc;fontSize=8;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;non GMP Backup System&lt;/font&gt;" vertex="1">
+          <mxGeometry height="240" width="200" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="reILo-NBEeHTBV6-JZvS-62" edge="1" parent="reILo-NBEeHTBV6-JZvS-4" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#00B336;strokeWidth=2;fontColor=#000000;jumpStyle=none;endArrow=block;endFill=1;startArrow=none;" target="NJOUkBfSY0Ov7EAms4jM-3" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="120" />
+              <mxPoint x="240" y="70" />
+            </Array>
+            <mxPoint x="280" y="120" as="sourcePoint" />
+            <mxPoint x="130" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reILo-NBEeHTBV6-JZvS-63" connectable="0" parent="reILo-NBEeHTBV6-JZvS-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" value="Veeam Proxmox VE Backup" vertex="1">
+          <mxGeometry relative="1" x="0.0675" y="-3" as="geometry">
+            <mxPoint x="17" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reILo-NBEeHTBV6-JZvS-56" edge="1" parent="reILo-NBEeHTBV6-JZvS-4" style="endArrow=classic;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="reILo-NBEeHTBV6-JZvS-53" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="180" />
+              <mxPoint x="240" y="420" />
+            </Array>
+            <mxPoint x="122.75" y="180" as="sourcePoint" />
+            <mxPoint x="192.75" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reILo-NBEeHTBV6-JZvS-57" connectable="0" parent="reILo-NBEeHTBV6-JZvS-56" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;rotation=90;" value="Physical Delivery" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJOUkBfSY0Ov7EAms4jM-4" parent="reILo-NBEeHTBV6-JZvS-4" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.tape_library;" value="&lt;font&gt;non GMP Tape Library&lt;br style=&quot;&quot;&gt;10.3.128.17&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="40" x="80" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="reILo-NBEeHTBV6-JZvS-52" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#000000;fontSize=8;fontFamily=Helvetica;fontStyle=1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;B227&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="280" x="280" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="reILo-NBEeHTBV6-JZvS-53" parent="reILo-NBEeHTBV6-JZvS-52" style="swimlane;whiteSpace=wrap;html=1;startSize=26;strokeColor=#b85450;strokeWidth=2;fillColor=#f8cecc;fontSize=8;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Secure Box&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="160" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="reILo-NBEeHTBV6-JZvS-55" parent="reILo-NBEeHTBV6-JZvS-53" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.tape_media_pool;fontSize=8;" value="" vertex="1">
+          <mxGeometry height="28" width="45.5" x="57.25" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="NJOUkBfSY0Ov7EAms4jM-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="non GMP Proxmox PVE" vertex="1">
+          <mxGeometry height="200" width="200" x="640" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NJOUkBfSY0Ov7EAms4jM-2" parent="NJOUkBfSY0Ov7EAms4jM-1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.virtual_machine;" value="&lt;span style=&quot;font-family: helvetica, arial, verdana, sans-serif; font-size: 13px; text-align: start; white-space: normal; color: light-dark(rgb(0, 0, 0), rgb(25, 25, 20));&quot;&gt;HKVPPSWMS001P&lt;br&gt;IP: 10.3.130.228&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="40" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NJOUkBfSY0Ov7EAms4jM-3" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.vbr_server;fontSize=8;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;non GMP Data Backup Server&lt;br style=&quot;&quot;&gt;HKPBACKUP003P&lt;br style=&quot;&quot;&gt;IP:10.3.130.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="50" x="430" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
