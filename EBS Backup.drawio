@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Q1qEN9NQcn7KQOZhU-w0">
-    <mxGraphModel dx="1479" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1495" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="reILo-NBEeHTBV6-JZvS-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="640" width="1080" x="40" y="40" as="geometry" />
+          <mxGeometry height="640" width="920" x="40" y="40" as="geometry" />
         </mxCell>
         <mxCell id="reILo-NBEeHTBV6-JZvS-1" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#000000;fontSize=8;fontFamily=Helvetica;fontStyle=1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;A219 - IT Server Room (Primary)&lt;/font&gt;" vertex="1">
           <mxGeometry height="320" width="840" x="80" y="80" as="geometry" />
